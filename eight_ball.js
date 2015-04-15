@@ -11,3 +11,8 @@ function eightBall (arr){
 	var end = arr.length;
 	return arr[Math.floor(Math.random()*(end-beg)+beg)];
 };
+$(document).ready(function (){
+	$('#button').click(function(){
+		alert('type shit in here.');
+	});
+});
