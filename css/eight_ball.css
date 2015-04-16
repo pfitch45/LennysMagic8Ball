@@ -1,0 +1,37 @@
+html {
+  background: url(../images/galaxy.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/galaxy.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/galaxy.jpg', sizingMethod='scale')";
+}
+
+body {
+	max-width: 750px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+h1 {
+	color: #CACC00;
+	font-family: 'Russo One', 'sans-serif';
+	font-size: 72px;
+}
+.container {
+	
+}
+
+.query {
+	position: relative;
+}
+
+.button {
+	position: relative;
+	padding: 20px 0 20px 0;
+}
+#question {
+	background: rgba(172, 167, 164, 0.8);
+	outline-color: #ff0;
+}
