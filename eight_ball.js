@@ -9,10 +9,17 @@ var phraseList = [
 function eightBall (arr){
 	var beg = 0;
 	var end = arr.length;
-	return arr[Math.floor(Math.random()*(end-beg)+beg)];
+	var result = arr[Math.floor(Math.random()*(end-beg)+beg)];
+	console.log(result);
+	
+	//document.getElementById("output").innerHTML = result;
+	$('#output').html(result); 
 };
+
 $(document).ready(function (){
 	$('#button').click(function(){
-		alert('type shit in here.');
+		eightBall(phraseList);
 	});
 });
+
+
