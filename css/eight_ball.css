@@ -12,6 +12,8 @@ body {
 	max-width: 750px;
 	margin: 0 auto;
 	text-align: center;	
+	font-family: Helvetica, 'sans-serif';
+	color: #fff;
 }
 
 h1 {
@@ -21,6 +23,10 @@ h1 {
 }
 .container {
 	
+}
+
+.ball {
+	margin: 30px 0 30px 0;
 }
 
 .query {
@@ -34,4 +40,5 @@ h1 {
 #question {
 	background: rgba(172, 167, 164, 0.8);
 	outline-color: #ff0;
+	margin-top-top: -30px;
 }
