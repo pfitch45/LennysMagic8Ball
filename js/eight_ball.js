@@ -44,7 +44,7 @@ function eightBall (arr){
 
 $(document).ready(function (){
 
-	$('')
+	
 
 	$('#button').click(function(){
 		eightBall(phraseList);
