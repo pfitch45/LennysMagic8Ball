@@ -22,6 +22,11 @@ var phraseList = [
 	"Very doubtful"
 ];
 
+/*var imgArr = [
+	"ball.png",
+	"ballRear.png"
+];*/
+
 function eightBall (arr){
 	var beg = 0;
 	var end = arr.length;
@@ -29,7 +34,8 @@ function eightBall (arr){
 	console.log(result);
 	
 	//document.getElementById("output").innerHTML = result;
-	$('#output').html(result); 
+	$('#output').html(result);
+	$('img').html("ballRear.png"); 
 };
 
 //end business logic 
@@ -37,9 +43,21 @@ function eightBall (arr){
 //site functionality
 
 $(document).ready(function (){
+
+	$('')
+
 	$('#button').click(function(){
 		eightBall(phraseList);
 	});
+
+	/*$('button').click(function(){
+		$('#user-query').html($(this).val());
+	});*/
+
+	$('#button').click(function(){
+		$('input').val('');
+	});
+
 });
 
 

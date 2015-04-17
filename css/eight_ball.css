@@ -29,7 +29,7 @@ h1 {
 	margin: 30px 0 30px 0;
 }
 
-.query {
+.query-area {
 	position: relative;
 }
 
@@ -37,8 +37,27 @@ h1 {
 	position: relative;
 	padding: 20px 0 20px 0;
 }
+
+#button {
+	width: 125px;
+	height: 35px;
+	font-size: 15px;
+	font-family: inherit;
+	border-radius: 7px;
+	background-color: rgb(0,255,0);
+
+}
+
+#output{
+	font-size: 20px;
+}
+
 #question {
-	background: rgba(172, 167, 164, 0.8);
+	background: rgba(172, 167, 164, 0.6);
 	outline-color: #ff0;
 	margin-top-top: -30px;
+	width: 200px;
+	height: 45px;
+	font-size: 20px;
+	font-family: inherit;
 }
