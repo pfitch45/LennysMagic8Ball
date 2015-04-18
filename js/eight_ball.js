@@ -35,7 +35,7 @@ function eightBall (arr){
 	
 	//document.getElementById("output").innerHTML = result;
 	$('#output').html(result);
-	$('img').html("ballRear.png"); 
+
 };
 
 //end business logic 
